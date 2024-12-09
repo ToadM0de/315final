@@ -1,0 +1,100 @@
+{
+  "PRODUCTS": [
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/1.png",
+      "productName": "Product 1",
+      "productPrice": "",
+      "productDescription": ""
+    },
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/2.png",
+      "productName": "Product 2",
+      "productPrice": "",
+      "productDescription": ""
+    },
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/3.png",
+      "productName": "Product 3",
+      "productPrice": "",
+      "productDescription": ""
+    },
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/4.png",
+      "productName": "Product 4",
+      "productPrice": "",
+      "productDescription": ""
+    },
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/5.png",
+      "productName": "Product 5",
+      "productPrice": "",
+      "productDescription": ""
+    },
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/6.png",
+      "productName": "Product 6",
+      "productPrice": "",
+      "productDescription": ""
+    },
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/7.png",
+      "productName": "Product 7",
+      "productPrice": "",
+      "productDescription": ""
+    },
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/8.png",
+      "productName": "Product 8",
+      "productPrice": "",
+      "productDescription": ""
+    },
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/9.png",
+      "productName": "Product 9",
+      "productPrice": "",
+      "productDescription": ""
+    },
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/10.png",
+      "productName": "Product 10",
+      "productPrice": "",
+      "productDescription": ""
+    },
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/11.png",
+      "productName": "Product 11",
+      "productPrice": "",
+      "productDescription": ""
+    },
+    {
+      "productBanner": "",
+      "productBannerColor": "#fec930",
+      "productImage": "../images/12.png",
+      "productName": "Product 12",
+      "productPrice": "",
+      "productDescription": ""
+    }
+  ]
+}

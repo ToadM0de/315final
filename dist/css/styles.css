@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+#app {
+  padding-top: 370px;
+  max-width: 1220px;
+  margin: 20px auto 0 auto;
+  /* background-color: rgb(240, 193, 131); */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto 50px auto;
+}
+
+input {
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+nav {
+  height: 240px;
+  background-color: #ece9e4;
+}
+
+.banner {
+  height: 40px;
+  background-color: #fec930;
+  display: flex;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 450px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.banner .useCode {
+  padding-left: 10px;
+}
+.banner .shopNow {
+  margin-left: 10px;
+  border-bottom: solid;
+  border-width: 1px;
+  height: 15px;
+}
+.banner .seeDetails {
+  margin-left: 10px;
+  border-bottom: solid;
+  border-width: 1px;
+  font-weight: lighter;
+  height: 15px;
+}
+.banner .x {
+  margin-left: 470px;
+  padding-top: 4px;
+}
+
+.nav-middle {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.nav-middle .freeShipping {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: light;
+  font-size: 14px;
+  margin-top: 25px;
+}
+.nav-middle .logo {
+  background-image: url(../images/Keurig_logo.svg.png);
+  height: 100px;
+  width: 175px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.nav-middle2 {
+  display: flex;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+.nav-middle2 p {
+  padding-left: 50px;
+}
+.nav-middle2 .deals {
+  color: #c50001;
+}
+
+.nav-bottom {
+  display: flex;
+  text-align: center;
+  height: 100px;
+  background-color: #473036;
+  color: white;
+}
+.nav-bottom .bottomP {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin-left: 70px;
+  line-height: 18px;
+}
+.nav-bottom .line {
+  transform: rotate(90deg);
+  margin-top: 10px;
+}
+.nav-bottom .seeDetails {
+  font-size: 9px;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.search {
+  width: 600px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+}
+.search .fa-solid {
+  font-size: 30px;
+  padding-top: 5px;
+  float: left;
+}
+.search .searchP {
+  padding-top: 12px;
+  font-size: 14px;
+  padding-left: 50px;
+}
+
+.account-holder {
+  width: 300px;
+  /* background-color: aquamarine; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.account,
+.cart,
+.support {
+  font-size: 28px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: lighter;
+}
+
+.accountP,
+.cartP,
+.supportP {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.cart {
+  position: relative;
+}
+
+.item-text {
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+.holidayCountdown {
+  background-image: url(../images/Screenshot\ 2024-12-07\ 012645.png);
+  height: 230px;
+  width: 1218px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  margin-left: 150px;
+  margin-top: 22px;
+}
+
+.product {
+  width: 290px;
+  height: 620px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 26px -9px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 0px 26px -9px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 26px -9px rgba(0, 0, 0, 0.55);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product {
+  width: 290px;
+  height: 620px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 26px -9px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 0px 26px -9px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 26px -9px rgba(0, 0, 0, 0.55);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-holder {
+  width: 100%;
+  height: 400px;
+}
+
+.image-holder img {
+  width: 85%;
+  height: 560px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  margin-right: 100px;
+}
+
+.buy-now {
+  border-color: #fec930;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px 30px;
+  color: black;
+  cursor: pointer;
+  width: 230px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.filters {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.filters p {
+  border-color: #989898;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  width: 100px;
+  padding-top: 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.filters p .fa-solid {
+  padding-left: 5px;
+  font-size: 20px;
+}
+.filters .long {
+  width: 140px;
+}
+.filters .long2 {
+  width: 140px;
+  margin-left: 140px;
+}
+.filters .sortBy {
+  text-align: left;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.filters .sortBy .sorts {
+  font-size: 13px;
+}
+.filters .sortBy .fa-solid {
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+#si {
+  display: none;
+}

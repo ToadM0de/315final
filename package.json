@@ -1,0 +1,23 @@
+{
+  "name": "315final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server dist",
+    "build-webpack": "webpack",
+    "compile": "sass dist/scss/styles.scss dist/css/styles.css -w --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "firebase": "^11.0.2",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "sass": "^1.82.0",
+    "webpack": "^5.97.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
